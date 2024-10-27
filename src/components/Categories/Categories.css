@@ -1,0 +1,44 @@
+.featured {
+    text-align: center;
+}
+
+.categoryChild {
+    display: flex;
+    background-color: lightcyan;
+    overflow: hidden;
+    mask-image: linear-gradient(
+        to right,
+        transparent, 
+        lightcyan 10%,
+        lightcyan 80%,
+        transparent
+    );
+}
+
+.category {
+    width: 250px;
+    height: 90px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    animation: slide 4s infinite linear;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+
+
+
+

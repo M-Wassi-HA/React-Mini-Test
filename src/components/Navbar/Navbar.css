@@ -1,0 +1,17 @@
+.container{
+    background-color: cyan;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    padding-top: 10px;
+    width: 200%;
+}
+.container h1 {
+    font-size: x-large;
+}
+.container ul {
+    padding-top: 4px;
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}

@@ -1,0 +1,27 @@
+.Card-parent{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.card-child{
+    padding: 20px;
+    line-height: 40px;
+    border: 2px solid cyan;
+    width: 600px;
+    height: 200px;
+    border-radius: 20px;
+    /* padding-top: 20px; */
+}
+.para{
+    font-size: x-small;
+}
+.imgs{
+    margin-left: 327px;
+    width: 250px;
+    height: 197px;
+    margin-top: -250px;
+    border-radius: 20px;
+}
